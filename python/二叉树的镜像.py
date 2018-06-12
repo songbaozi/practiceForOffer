@@ -2,6 +2,7 @@
 
 '''
 date:2018.3.24
+update:2018.3.27 19.40
 author：song
 '''
 
@@ -32,8 +33,10 @@ class TreeNode:
 class Solution:
     def Mirror(self,root):
         #利用递归解决
-        if not root:
-            return
-        tempNode = root.left
-        root.left = root.right
-        root.right = tempNode
+        if root:
+            tempNode = root.left
+            root.left = root.right
+            root.right = tempNode
+            self.Mirror(root.left)
+            self.Mirror(root.right)
+        return root

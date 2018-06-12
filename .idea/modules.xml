@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/practiceForOffer.iml" filepath="$PROJECT_DIR$/.idea/practiceForOffer.iml" />
+      <module fileurl="file://$USER_HOME$/workspace/MachineLearning/src/.idea/src.iml" filepath="$USER_HOME$/workspace/MachineLearning/src/.idea/src.iml" />
+      <module fileurl="file://$USER_HOME$/workspace/论文代码/.idea/论文代码.iml" filepath="$USER_HOME$/workspace/论文代码/.idea/论文代码.iml" />
+      <module fileurl="file://$USER_HOME$/workspace/项目/.idea/项目.iml" filepath="$USER_HOME$/workspace/项目/.idea/项目.iml" />
+    </modules>
+  </component>
+</project>
